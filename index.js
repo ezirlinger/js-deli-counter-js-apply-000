@@ -12,7 +12,7 @@ function nowServing(katzDeliLine) {
     }
 }
 
-function currentLine(katzDeliLine) {
+/* function currentLine(katzDeliLine) {
     if (katzDeliLine.length === 0) { // If katzDeliLine = 0.  Also could be !katzDeliLine.length.
         return `The line is currently empty.`;
     } else {
@@ -30,4 +30,20 @@ function currentLine(katzDeliLine) {
 
         return str // I was going to hard code this to pass the test but my brother told me that was stupid :)
     }
+} */
+
+
+  function currentLine(katzDeliLine) {
+// for (var i = 0; i < katzDeliLine.length; i++) {
+//
+//   return "The line is currently " +  katzDeliLine
+
+  if (katzDeliLine.length === 0) {
+    return "The line is currently empty"
+  } else {
+      for (var i = 0; i < katzDeliLine.length; i++) {
+
+      return "The line is currently " +  katzDeliLine
+  }
 }
+}     
